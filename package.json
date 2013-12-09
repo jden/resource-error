@@ -1,5 +1,5 @@
 {
-  "name": "resource-errors",
+  "name": "resource-error",
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "error classes relating to resources, aligned with http codes",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
   },
-  "repository": "git@github.com:jden/resource-errors.git",
+  "repository": "git@github.com:jden/resource-error.git",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
