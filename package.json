@@ -3,7 +3,13 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "error classes relating to resources, aligned with http codes",
-  "keywords": ["typedError", "http", "rest", "typed error", "errors"],
+  "keywords": [
+    "typedError",
+    "http",
+    "rest",
+    "typed error",
+    "errors"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
@@ -14,5 +20,8 @@
   "devDependencies": {
     "chai": "~1.6.0",
     "mocha": "~1.9.0"
+  },
+  "dependencies": {
+    "typederror": "~0.3.1"
   }
 }
